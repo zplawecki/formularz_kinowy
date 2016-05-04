@@ -4,13 +4,14 @@
     </head>
     <body>
         <div>
-            <form>
+            <form action="" method="post">
                 <label>Nazwa kina:</label>
                 <input type="text" name="addCinemaName"><br>
                 <label>Adres kina:</label>
                 <input type="text" name="addCinemaAdress"><br>
                 <input type="submit" name="addCinema"><br><br>
-
+            </form>    
+            <form action="" method="post">
                 <label>Tytul filmu:</label>
                 <input type="text" name="addMovieName"><br>
                 <label>Opis filmu:</label>

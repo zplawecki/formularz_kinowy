@@ -29,7 +29,19 @@ function showInfoInTable($dbTable, $whereQuery, $fieldsToShow) {
     echo '<br>';
 };
 
-
-
+//function generateItemsSelect($selectName, $sqlTableName, $sqlTableId, $sqlTableLabel) {
+//    global $conn;
+//
+//    echo "<select name='$selectName'>";
+//    $sql = "SELECT $sqlTableId,$sqlTableLabel FROM $sqlTableName";
+//    $result = $conn->query($sql);
+//
+//    while ($row = $result->fetch_assoc()) {
+//        $id = $row[$sqlTableId];
+//        $label = $row[$sqlTableLabel];
+//        echo "<option value='$id'>$label</option>";
+//    }
+//    echo "</select>";
+//};
 ?>
 
